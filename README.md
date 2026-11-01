@@ -2,7 +2,7 @@
 
 **Devixo Solutions | AI/ML Internship Program | Task 02: Build and Compare Machine Learning Models**
 
-**Author:** Aman Khan  
+**Author:** Aman Hameed Ullah 
 **Internship Domain:** AI/ML
 
 ## Project Objective
