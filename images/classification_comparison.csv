@@ -1,0 +1,7 @@
+Model,Rank,Training Time (s),Accuracy,Precision,Recall,F1 Score,ROC-AUC,Advantages,Limitations
+Logistic Regression,1,0.105,0.8062,0.6593,0.5588,0.6049,0.8422,"Simple, fast, easy to interpret, no overfitting here, best F1 score","Only linear boundaries, recall is still only about 56%"
+XGBoost,2,0.104,0.7999,0.6544,0.5214,0.5804,0.8442,"High ROC-AUC, fast training, handles complex patterns, small train-test gap","Many hyperparameters to tune, lower recall than Logistic Regression"
+SVM,3,16.868,0.7963,0.6537,0.4947,0.5632,0.7955,"Good precision, works well in high-dimensional scaled data, small gap","Slowest to train (several seconds), lowest recall among top models, hard to interpret"
+Random Forest,4,1.366,0.7885,0.6275,0.5,0.5565,0.8217,"Combines many trees, much better than a single tree, gives feature importance","Strong overfitting (99.8% train accuracy), slower, harder to interpret"
+KNN,5,0.009,0.763,0.5565,0.5267,0.5412,0.7783,"Very simple, almost no training time, no assumptions about the data","Slow predictions on large data, sensitive to scaling and many binary columns"
+Decision Tree,6,0.091,0.7402,0.5109,0.5027,0.5067,0.6641,"Very easy to understand and visualize, no scaling needed","Severe overfitting (gap of 25.78 points), unstable, lowest ROC-AUC"

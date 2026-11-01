@@ -1,0 +1,5 @@
+Model,Rank,Training Time (s),MAE,MSE,RMSE,R2 Score,Advantages,Limitations
+Linear Regression,1,0.013,0.7893,1.1052,1.0513,0.9988,"Best on all metrics, fastest to interpret, matches the additive pricing","Assumes a linear relationship, would struggle with strong non-linear effects"
+XGBoost,2,0.195,0.8193,1.1977,1.0944,0.9987,"Very accurate, captures non-linear effects, fast","Needs tuning, no gain over the simple linear model here"
+Random Forest,3,1.744,0.8966,1.4211,1.1921,0.9984,"Robust, handles non-linear effects, little overfitting",Slowest to train (2.52 s) and not better than Linear Regression
+Decision Tree,4,0.024,0.9436,1.708,1.3069,0.9981,"Easy to understand, very fast to train","Lowest accuracy of the four, depth must be limited"
