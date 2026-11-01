@@ -98,4 +98,4 @@ Task_02_AI_ML/
 5. Run all cells from top to bottom.
 
 ## Author
-**Aman Khan** | AI/ML Intern, Devixo Solutions
+**Aman Hameed Ullah** | AI/ML Intern, Devixo Solutions
